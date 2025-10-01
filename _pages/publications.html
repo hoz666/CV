@@ -66,10 +66,16 @@ author_profile: true
 
 h2 {
   color: #2c3e50;
-  border-bottom: 3px solid #3498db;
   padding-bottom: 0.5em;
   margin-top: 2em;
   margin-bottom: 1em;
+}
+
+/* 夜间模式h2颜色 */
+@media (prefers-color-scheme: dark) {
+  h2 {
+    color: #ffffff;
+  }
 }
 </style>
 
@@ -88,7 +94,7 @@ h2 {
         {% continue %}
       {% endif %}
       {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
+        <h2>{{ category[1].title }}</h2>
         {% assign title_shown = true %}
       {% endunless %}
       {% include archive-single.html %}
