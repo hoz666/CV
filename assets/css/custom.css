@@ -19,13 +19,11 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 2.2em;
-  border-bottom: 3px solid #3498db;
   padding-bottom: 0.3em;
 }
 
 h2 {
   font-size: 1.8em;
-  border-bottom: 2px solid #ecf0f1;
   padding-bottom: 0.3em;
 }
 
@@ -40,16 +38,26 @@ p {
   text-align: justify;
 }
 
-/* 优化链接样式 */
+/* 优化链接样式 - 更暗的颜色 */
 a {
-  color: #3498db;
+  color: #1a6ba8;
   text-decoration: none;
   transition: color 0.2s ease;
 }
 
 a:hover {
-  color: #2980b9;
+  color: #145a8a;
   text-decoration: underline;
+}
+
+/* 夜间模式链接颜色 */
+@media (prefers-color-scheme: dark) {
+  a {
+    color: #ffffff;
+  }
+  a:hover {
+    color: #e0e0e0;
+  }
 }
 
 /* 优化出版物列表 */
@@ -165,6 +173,108 @@ li {
   .archive__item {
     padding: 1em;
   }
+  
+  /* 修复移动端导航菜单按钮 */
+  .greedy-nav button {
+    position: relative;
+    z-index: 1000;
+    padding: 0.5rem;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+  }
+  
+  .greedy-nav button:hover,
+  .greedy-nav button:focus {
+    opacity: 0.7;
+  }
+  
+  .greedy-nav .navicon {
+    position: relative;
+    width: 1.5rem;
+    height: 0.25rem;
+    background: currentColor;
+    transition: 0.3s;
+  }
+  
+  .greedy-nav .navicon:before,
+  .greedy-nav .navicon:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 1.5rem;
+    height: 0.25rem;
+    background: currentColor;
+    transition: 0.3s;
+  }
+  
+  .greedy-nav .navicon:before {
+    top: -0.5rem;
+  }
+  
+  .greedy-nav .navicon:after {
+    top: 0.5rem;
+  }
+  
+  .greedy-nav .hidden-links {
+    position: absolute;
+    right: 0;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background: var(--background-color, #fff);
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    z-index: 999;
+  }
+  
+  .greedy-nav .hidden-links.hidden {
+    display: none;
+  }
+  
+  /* 赞助商Logo在移动端也保持横向 */
+  .sponsors-container {
+    gap: 1em;
+    max-width: 100%;
+    padding: 0 1em;
+  }
+  
+  .sponsor-logo {
+    max-width: 60px;
+    max-height: 28px;
+  }
+  
+  .sponsor-logo img {
+    max-height: 28px;
+  }
+}
+
+/* 夜间模式下导航菜单背景 */
+@media (prefers-color-scheme: dark) {
+  .greedy-nav .hidden-links {
+    background: #1a1a1a;
+    border-color: rgba(255,255,255,0.1);
+  }
+  
+  /* 夜间模式下赞助商Logo亮度调整 */
+  .sponsor-logo img {
+    filter: grayscale(100%) opacity(0.6) brightness(1.8);
+  }
+  
+  .sponsor-logo:hover img {
+    filter: grayscale(0%) opacity(1) brightness(1.2);
+  }
+  
+  /* 夜间模式footer背景 */
+  .page__footer-sponsors {
+    background: transparent;
+    border-top-color: rgba(255,255,255,0.1);
+  }
+  
+  .sponsors-label {
+    color: #aaa;
+  }
 }
 
 /* ===== Footer Sponsors Section ===== */
@@ -190,24 +300,24 @@ li {
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
-  gap: 2em;
-  max-width: 900px;
+  gap: 1.5em;
+  max-width: 500px;
   margin: 0 auto;
 }
 
 .sponsor-logo {
   flex: 0 1 auto;
-  max-width: 150px;
-  max-height: 60px;
+  max-width: 80px;
+  max-height: 35px;
   transition: all 0.3s ease;
 }
 
 .sponsor-logo img {
   width: 100%;
   height: auto;
-  max-height: 60px;
+  max-height: 35px;
   object-fit: contain;
-  filter: grayscale(100%) opacity(0.7);
+  filter: grayscale(100%) opacity(0.6);
   transition: filter 0.3s ease, transform 0.3s ease;
 }
 

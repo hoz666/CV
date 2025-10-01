@@ -17,8 +17,8 @@ author_profile: true
 
 <style>
 .publications-intro {
-  background: #f8f9fa;
-  border-left: 4px solid #3498db;
+  background: transparent;
+  border-left: 2px solid rgba(100, 100, 100, 0.3);
   padding: 1.5em;
   margin-bottom: 2em;
   border-radius: 4px;
@@ -34,7 +34,7 @@ author_profile: true
   line-height: 1.8;
   margin-top: 1em;
   padding-top: 1em;
-  border-top: 1px solid #dee2e6;
+  border-top: 1px solid rgba(100, 100, 100, 0.2);
 }
 
 .archive__item-title {
@@ -42,6 +42,19 @@ author_profile: true
   font-weight: 600;
   margin-bottom: 0.5em;
   color: #2c3e50;
+}
+
+/* 夜间模式适配 */
+@media (prefers-color-scheme: dark) {
+  .archive__item-title {
+    color: #ffffff !important;
+  }
+  .publications-intro {
+    border-left-color: rgba(200, 200, 200, 0.3);
+  }
+  .publication-stats {
+    border-top-color: rgba(200, 200, 200, 0.2);
+  }
 }
 
 .archive__item-excerpt {
