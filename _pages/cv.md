@@ -60,11 +60,13 @@ details[open] summary {
 
 .cv-content-inner {
   padding: 0 18px 18px 18px;
+  color: #2c3e50;
 }
 
 .cv-item {
   margin-bottom: 1.2em;
   line-height: 1.6;
+  color: #2c3e50;
 }
 
 .cv-year {
@@ -81,10 +83,12 @@ details[open] summary {
 
 .cv-content-inner ul {
   margin-left: 1.5em;
+  color: #2c3e50;
 }
 
 .cv-content-inner li {
   margin-bottom: 0.5em;
+  color: #2c3e50;
 }
 
 /* Dark mode */
@@ -108,6 +112,13 @@ details[open] summary {
   
   details[open] summary {
     border-bottom-color: #ffffff;
+  }
+  
+  .cv-content-inner,
+  .cv-item,
+  .cv-content-inner ul,
+  .cv-content-inner li {
+    color: #ffffff;
   }
   
   .cv-year,
