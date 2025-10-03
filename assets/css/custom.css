@@ -6,6 +6,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #000000 !important;
 }
 
+/* 白天模式 - 所有文字黑色 */
+body, p, li, td, th, div, span, strong, em, a {
+  color: #000000 !important;
+}
+
 hr {
   border-color: rgba(100, 100, 100, 0.2) !important;
   border-width: 1px !important;
@@ -25,7 +30,7 @@ hr {
     border-color: rgba(200, 200, 200, 0.2) !important;
   }
   
-  p, li, td, th, div, span {
+  p, li, td, th, div, span, strong, em, a {
     color: #ffffff !important;
   }
 }

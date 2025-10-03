@@ -10,19 +10,20 @@ redirect_from:
 {% include base_path %}
 
 <style>
-/* Collapsible section styles using details/summary */
+/* Collapsible section styles - minimalist design */
 details {
-  background-color: #f8f9fa;
-  border-radius: 5px;
-  margin: 15px 0;
+  background-color: transparent;
+  border-radius: 0;
+  margin: 10px 0;
   padding: 0;
-  border: 1px solid #dee2e6;
+  border: none;
+  border-bottom: 1px solid #e0e0e0;
 }
 
 summary {
   cursor: pointer;
-  padding: 18px;
-  font-size: 1.1em;
+  padding: 15px 0;
+  font-size: 1.15em;
   font-weight: 600;
   color: #000000;
   user-select: none;
@@ -30,6 +31,7 @@ summary {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: all 0.2s ease;
 }
 
 summary::-webkit-details-marker {
@@ -37,29 +39,26 @@ summary::-webkit-details-marker {
 }
 
 summary:hover {
-  background-color: #e9ecef;
-  border-radius: 5px;
+  color: #333333;
 }
 
 summary:after {
-  content: '+';
-  font-size: 1.5em;
-  font-weight: bold;
-  color: #000000;
+  content: '▼';
+  font-size: 0.8em;
+  color: #666666;
   transition: transform 0.3s ease;
 }
 
 details[open] summary:after {
-  content: '−';
+  transform: rotate(180deg);
 }
 
 details[open] summary {
-  border-bottom: 2px solid #000000;
   margin-bottom: 15px;
 }
 
 .cv-content-inner {
-  padding: 0 18px 18px 18px;
+  padding: 0 0 15px 0;
   color: #000000;
 }
 
@@ -94,8 +93,7 @@ details[open] summary {
 /* Dark mode */
 @media (prefers-color-scheme: dark) {
   details {
-    background-color: rgba(255,255,255,0.05);
-    border-color: rgba(255,255,255,0.1);
+    border-bottom-color: rgba(255,255,255,0.2);
   }
   
   summary {
@@ -103,29 +101,23 @@ details[open] summary {
   }
   
   summary:hover {
-    background-color: rgba(255,255,255,0.1);
+    color: #e0e0e0;
   }
   
   summary:after {
-    color: #ffffff;
-  }
-  
-  details[open] summary {
-    border-bottom-color: #ffffff;
+    color: #cccccc;
   }
   
   .cv-content-inner,
   .cv-item,
+  .cv-year,
+  .cv-content-inner h3,
   .cv-content-inner ul,
   .cv-content-inner li {
     color: #ffffff;
   }
-  
-  .cv-year,
-  .cv-content-inner h3 {
-    color: #ffffff;
-  }
 }
+</style>
 </style>
 
 ## Dr. Caterina Valeo, P.Eng.

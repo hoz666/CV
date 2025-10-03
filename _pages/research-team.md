@@ -16,22 +16,31 @@ Welcome to our research team! We are a dynamic group of graduate students, postd
 ### **Ph.D. Candidates**
 
 <details open>
-<summary><strong>Farzam A.</strong> - Stormwater Pond Modeling</summary>
+<summary><strong>Zhonghao Zhang</strong> - Low Impact Development & Climate Adaptation</summary>
 <div style="padding: 15px; border-left: 3px solid #000;">
-<p><strong>Research Topic:</strong> Developing numerical circulation models for stormwater ponds storing water for potential reuse</p>
-<p><strong>Focus:</strong> Predictions on the distribution of contaminants in ponds both spatially and temporally as a function of climate and fluid dynamics</p>
-<p><strong>Collaborators:</strong> Dr. He (U of C), Dr. Neumann (U of A), Dr. Checkley (U of C)</p>
-<p><strong>Expected Completion:</strong> 2026</p>
+<p><strong>Research Focus:</strong> Low Impact Development (LID) technologies, stormwater management modeling, climate change impacts on urban hydrology</p>
+<p><strong>Recent Publications:</strong></p>
+<ul>
+  <li>Zhang, Z. and Valeo, C. (2025). "Quantifying Hydrological Model Input Uncertainty Using Fuzzy Based PCSWMM And Fuzzy Based GPT." <em>Journal of Hydrology X</em>. In press.</li>
+  <li>Zhang, Z. and Valeo, C. (2024). "Low Impact Development Technologies for Mitigating Climate Change Impacts: Review and Direction." <em>National Science Open</em>, 3: 20230025.</li>
+  <li>Zhang Z and Valeo C. (2022). "Verification of PCSWMM's LID processes and their scalability over time and space." <em>Frontiers in Water</em>, 4:1058883.</li>
+</ul>
+<p><strong>Research Tools:</strong> PCSWMM modeling, fuzzy logic, uncertainty quantification</p>
 </div>
 </details>
 
 <details open>
-<summary><strong>Hauke B.</strong> - Marine Oil Spill Modeling</summary>
+<summary><strong>Jingwen Liu</strong> - Water Quality & Treatment Systems</summary>
 <div style="padding: 15px; border-left: 3px solid #000;">
-<p><strong>Research Topic:</strong> Developing fuzzy mathematical expressions for oil spill extent in marine environments</p>
-<p><strong>Methodology:</strong> Using drifter data and numerical circulation models with fuzzy logic for uncertainty quantification</p>
-<p><strong>Co-supervisor:</strong> Dr. Charles Hannah, Department of Fisheries and Oceans</p>
-<p><strong>Expected Completion:</strong> 2025</p>
+<p><strong>Research Focus:</strong> Bioretention systems, heavy metal removal, green infrastructure performance optimization</p>
+<p><strong>Research Areas:</strong></p>
+<ul>
+  <li>Bioretention cell design and optimization</li>
+  <li>Heavy metal removal mechanisms</li>
+  <li>Evapotranspiration in green infrastructure</li>
+  <li>Cold climate performance of LID technologies</li>
+</ul>
+<p><strong>Collaborators:</strong> Dr. Angus Chu (U of C), Dr. Rishi Gupta (UVic)</p>
 </div>
 </details>
 
@@ -40,8 +49,7 @@ Welcome to our research team! We are a dynamic group of graduate students, postd
 <div style="padding: 15px; border-left: 3px solid #000;">
 <p><strong>Research Topic:</strong> Long-term impacts of flooding on transportation systems</p>
 <p><strong>Program:</strong> University of Calgary's IISC CREATE Program</p>
-<p><strong>Co-supervisor:</strong> Dr. Jianxun He</p>
-<p><strong>Expected Completion:</strong> 2027</p>
+<p><strong>Co-supervisor:</strong> Dr. Jianxun He (U of C)</p>
 </div>
 </details>
 
@@ -52,7 +60,6 @@ Welcome to our research team! We are a dynamic group of graduate students, postd
 <div style="padding: 15px; border-left: 3px solid #000;">
 <p><strong>Research Topic:</strong> Bioretention of heavy metals and evapotranspiration in bioretention cells</p>
 <p><strong>Focus:</strong> Performance optimization of green infrastructure for stormwater treatment</p>
-<p><strong>Expected Completion:</strong> 2025</p>
 </div>
 </details>
 
@@ -60,8 +67,7 @@ Welcome to our research team! We are a dynamic group of graduate students, postd
 <summary><strong>Sarah Q.</strong> - Building Thermal Performance</summary>
 <div style="padding: 15px; border-left: 3px solid #000;">
 <p><strong>Research Topic:</strong> Evaluating instruments for thermal heat transfer monitoring in walls</p>
-<p><strong>Co-supervisor:</strong> Dr. Phalguni Mukhopadhyaya</p>
-<p><strong>Expected Completion:</strong> 2025</p>
+<p><strong>Co-supervisor:</strong> Dr. Phalguni Mukhopadhyaya (UVic)</p>
 </div>
 </details>
 
@@ -70,7 +76,6 @@ Welcome to our research team! We are a dynamic group of graduate students, postd
 <div style="padding: 15px; border-left: 3px solid #000;">
 <p><strong>Research Topic:</strong> Hydraulic models of treatment ponds in series for treating polluted runoff</p>
 <p><strong>Focus:</strong> Optimization of pond configuration and design parameters</p>
-<p><strong>Expected Completion:</strong> 2026</p>
 </div>
 </details>
 
