@@ -24,7 +24,7 @@ Dr. Valeo's research team uses a variety of hardware, software, field and labora
 
 **[Tackling Climate Change One Tree At A Time](https://chatelaine.com/living/climate-crisis-trees-heat/)** - Featured in *Chatelaine Magazine*, April 2024
 
-Dr. Valeo is leading a groundbreaking $180,000 three-year research project funded by the Pacific Institute for Climate Solutions, in collaboration with the City of Vancouver and researchers from the University of Victoria and University of Calgary. The project focuses on **designing urban forests to combat extreme heat and the urban heat island effect** exacerbated by climate change.
+Dr. Valeo is leading a groundbreaking three-year research project funded by the Pacific Institute for Climate Solutions, in collaboration with the City of Vancouver and researchers from the University of Victoria and University of Calgary. The project focuses on **designing urban forests to combat extreme heat and the urban heat island effect** exacerbated by climate change.
 
 **Key Innovation:** Using **Rainwater Tree Trenches (RTTs)** - an innovative approach that combines stormwater management with urban cooling. RTTs use structural soil and underground filtration systems to grow full-canopy mature trees faster, creating natural cooling corridors through wind-tunnel effects.
 
