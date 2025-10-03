@@ -5,6 +5,133 @@ permalink: /research-team/
 author_profile: true
 ---
 
+{% include base_path %}
+
+<style>
+/* Collapsible section styles matching CV page */
+details {
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  margin: 15px 0;
+  padding: 0;
+  border: 1px solid #dee2e6;
+}
+
+summary {
+  cursor: pointer;
+  padding: 18px;
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #000000 !important;
+  user-select: none;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary:hover {
+  background-color: #e9ecef;
+  border-radius: 5px;
+}
+
+summary:after {
+  content: '+';
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #000000 !important;
+  transition: transform 0.3s ease;
+}
+
+details[open] summary:after {
+  content: '−';
+}
+
+details[open] summary {
+  border-bottom: 2px solid #000000;
+  margin-bottom: 15px;
+}
+
+details > div {
+  padding: 0 18px 18px 18px;
+  color: #000000 !important;
+}
+
+details > div * {
+  color: #000000 !important;
+}
+
+details > div p {
+  margin-bottom: 0.8em;
+  line-height: 1.6;
+  color: #000000 !important;
+}
+
+details > div ul {
+  margin-left: 1.5em;
+  color: #000000 !important;
+}
+
+details > div li {
+  margin-bottom: 0.5em;
+  color: #000000 !important;
+}
+
+details > div strong {
+  color: #000000 !important;
+}
+
+details > div em {
+  color: #000000 !important;
+}
+
+details > div a {
+  color: #1a6ba8 !important;
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  details {
+    background-color: rgba(255,255,255,0.05);
+    border-color: rgba(255,255,255,0.1);
+  }
+  
+  summary {
+    color: #ffffff !important;
+  }
+  
+  summary:hover {
+    background-color: rgba(255,255,255,0.1);
+  }
+  
+  summary:after {
+    color: #ffffff !important;
+  }
+  
+  details[open] summary {
+    border-bottom-color: #ffffff;
+  }
+  
+  details > div,
+  details > div *,
+  details > div p,
+  details > div ul,
+  details > div li,
+  details > div strong,
+  details > div em {
+    color: #ffffff !important;
+  }
+  
+  details > div a {
+    color: #64b5f6 !important;
+  }
+}
+</style>
+
 ## 👥 Environmental Informatics & Urban Water Resources Group
 
 Welcome to our research team! We are a dynamic group of graduate students, postdoctoral fellows, and collaborators working on cutting-edge problems in environmental engineering and urban water sustainability.

@@ -11,12 +11,22 @@ redirect_from:
 
 <style>
 /* Collapsible section styles using details/summary */
+/* Force all text to be black in light mode with maximum specificity */
+body details,
+body details *,
+body .cv-content-inner,
+body .cv-content-inner *,
+body .cv-item,
+body .cv-year {
+  color: #000000 !important;
+}
+
 details {
-  background-color: #f8f9fa;
+  background-color: #f8f9fa !important;
   border-radius: 5px;
   margin: 15px 0;
   padding: 0;
-  border: 1px solid #dee2e6;
+  border: 1px solid #dee2e6 !important;
 }
 
 summary {
@@ -30,6 +40,7 @@ summary {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: transparent !important;
 }
 
 summary::-webkit-details-marker {
@@ -37,12 +48,12 @@ summary::-webkit-details-marker {
 }
 
 summary:hover {
-  background-color: #e9ecef;
+  background-color: #e9ecef !important;
   border-radius: 5px;
 }
 
 summary:after {
-  content: '+';
+  content: '+' !important;
   font-size: 1.5em;
   font-weight: bold;
   color: #000000 !important;
@@ -50,34 +61,48 @@ summary:after {
 }
 
 details[open] summary:after {
-  content: '−';
+  content: '−' !important;
 }
 
 details[open] summary {
-  border-bottom: 2px solid #000000;
+  border-bottom: 2px solid #000000 !important;
   margin-bottom: 15px;
 }
 
+body .cv-content-inner,
 .cv-content-inner {
   padding: 0 18px 18px 18px;
   color: #000000 !important;
+  background-color: transparent !important;
 }
 
+body .cv-content-inner *,
 .cv-content-inner * {
   color: #000000 !important;
 }
 
+body .cv-content-inner div,
+body .cv-content-inner span,
+body .cv-content-inner p,
+body .cv-content-inner strong,
+body .cv-content-inner em {
+  color: #000000 !important;
+}
+
+body .cv-item,
 .cv-item {
   margin-bottom: 1.2em;
   line-height: 1.6;
   color: #000000 !important;
 }
 
+body .cv-year,
 .cv-year {
   font-weight: 600;
   color: #000000 !important;
 }
 
+body .cv-content-inner h3,
 .cv-content-inner h3 {
   color: #000000 !important;
   margin-top: 1em;
@@ -85,24 +110,32 @@ details[open] summary {
   font-size: 1.1em;
 }
 
+body .cv-content-inner ul,
 .cv-content-inner ul {
   margin-left: 1.5em;
   color: #000000 !important;
 }
 
+body .cv-content-inner li,
 .cv-content-inner li {
   margin-bottom: 0.5em;
   color: #000000 !important;
 }
 
+body .cv-content-inner p,
 .cv-content-inner p {
   color: #000000 !important;
 }
 
+body .cv-content-inner a,
 .cv-content-inner a {
   color: #1a6ba8 !important;
+  text-decoration: underline;
 }
 
+body .cv-content-inner strong,
+body .cv-content-inner em,
+body .cv-content-inner span,
 .cv-content-inner strong,
 .cv-content-inner em,
 .cv-content-inner span {
@@ -111,27 +144,42 @@ details[open] summary {
 
 /* Dark mode */
 @media (prefers-color-scheme: dark) {
+  body details,
   details {
-    background-color: rgba(255,255,255,0.05);
-    border-color: rgba(255,255,255,0.1);
+    background-color: rgba(255,255,255,0.05) !important;
+    border-color: rgba(255,255,255,0.1) !important;
   }
   
+  body summary,
   summary {
     color: #ffffff !important;
   }
   
+  body summary:hover,
   summary:hover {
-    background-color: rgba(255,255,255,0.1);
+    background-color: rgba(255,255,255,0.1) !important;
   }
   
+  body summary:after,
   summary:after {
     color: #ffffff !important;
   }
   
+  body details[open] summary,
   details[open] summary {
-    border-bottom-color: #ffffff;
+    border-bottom-color: #ffffff !important;
   }
   
+  body .cv-content-inner,
+  body .cv-content-inner *,
+  body .cv-item,
+  body .cv-content-inner ul,
+  body .cv-content-inner li,
+  body .cv-content-inner p,
+  body .cv-content-inner strong,
+  body .cv-content-inner em,
+  body .cv-content-inner span,
+  body .cv-content-inner div,
   .cv-content-inner,
   .cv-content-inner *,
   .cv-item,
@@ -144,11 +192,14 @@ details[open] summary {
     color: #ffffff !important;
   }
   
+  body .cv-year,
+  body .cv-content-inner h3,
   .cv-year,
   .cv-content-inner h3 {
     color: #ffffff !important;
   }
   
+  body .cv-content-inner a,
   .cv-content-inner a {
     color: #64b5f6 !important;
   }
