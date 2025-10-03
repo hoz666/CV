@@ -106,7 +106,7 @@ Welcome to our research team! We are a dynamic group of graduate students, postd
 
 ### **Ph.D. Candidates**
 
-<details open>
+<details>
 <summary><strong>Zhonghao Zhang</strong> - Low Impact Development & Climate Adaptation</summary>
 <div style="padding: 15px; border-left: 3px solid #000;">
 <p><strong>Research Focus:</strong> Low Impact Development (LID) technologies, stormwater management modeling, climate change impacts on urban hydrology</p>
@@ -120,22 +120,23 @@ Welcome to our research team! We are a dynamic group of graduate students, postd
 </div>
 </details>
 
-<details open>
-<summary><strong>Jingwen Liu</strong> - Water Quality & Treatment Systems</summary>
+<details>
+<summary><strong>Jingwen Liu</strong> - Urban Heat Island & Green Infrastructure</summary>
 <div style="padding: 15px; border-left: 3px solid #000;">
-<p><strong>Research Focus:</strong> Bioretention systems, heavy metal removal, green infrastructure performance optimization</p>
+<p><strong>Research Focus:</strong> Urban heat island mitigation through rainwater tree trenches with structural soil, energy-water balance modeling</p>
 <p><strong>Research Areas:</strong></p>
 <ul>
-  <li>Bioretention cell design and optimization</li>
-  <li>Heavy metal removal mechanisms</li>
-  <li>Evapotranspiration in green infrastructure</li>
-  <li>Cold climate performance of LID technologies</li>
+  <li>Urban heat island mitigation strategies</li>
+  <li>Rainwater tree trenches (RTTs) with structural soil</li>
+  <li>Energy-water balance modeling (SEB, CEB, UT&C models)</li>
+  <li>CFD simulation for urban microclimate (ENVI-met, ANSYS Fluent, OpenFOAM)</li>
+  <li>Human thermal comfort evaluation</li>
 </ul>
 <p><strong>Collaborators:</strong> Dr. Angus Chu (U of C), Dr. Rishi Gupta (UVic)</p>
 </div>
 </details>
 
-<details open>
+<details>
 <summary><strong>Aditya R.</strong> - Flood Impacts on Transportation</summary>
 <div style="padding: 15px; border-left: 3px solid #000;">
 <p><strong>Research Topic:</strong> Long-term impacts of flooding on transportation systems</p>
@@ -146,7 +147,7 @@ Welcome to our research team! We are a dynamic group of graduate students, postd
 
 ### **Master's Students**
 
-<details open>
+<details>
 <summary><strong>Jessica D.</strong> - Bioretention Systems</summary>
 <div style="padding: 15px; border-left: 3px solid #000;">
 <p><strong>Research Topic:</strong> Bioretention of heavy metals and evapotranspiration in bioretention cells</p>
@@ -154,7 +155,7 @@ Welcome to our research team! We are a dynamic group of graduate students, postd
 </div>
 </details>
 
-<details open>
+<details>
 <summary><strong>Sarah Q.</strong> - Building Thermal Performance</summary>
 <div style="padding: 15px; border-left: 3px solid #000;">
 <p><strong>Research Topic:</strong> Evaluating instruments for thermal heat transfer monitoring in walls</p>
@@ -162,7 +163,7 @@ Welcome to our research team! We are a dynamic group of graduate students, postd
 </div>
 </details>
 
-<details open>
+<details>
 <summary><strong>Fatima T.</strong> - Stormwater Treatment Ponds</summary>
 <div style="padding: 15px; border-left: 3px solid #000;">
 <p><strong>Research Topic:</strong> Hydraulic models of treatment ponds in series for treating polluted runoff</p>
@@ -176,11 +177,12 @@ Welcome to our research team! We are a dynamic group of graduate students, postd
 
 Our students regularly receive recognition for their excellent research:
 
-- **Best Paper Awards** at CSCE and ISEIS conferences
+- **CAWQ Philip H. Jones Award** – Best Presentation by Young Water Professional (First Place)
+- **Best Presentation Award** – ICEST Conference
+- **Best Poster Award** – CWRA Conference
 - **NSERC Scholarships** (CGS-M, CGS-D, PGS-D)
 - **UVic Graduate Fellowships**
 - **Publications** in top-tier journals (Environmental Science & Technology, Water Research, Journal of Hydrology)
-- **Conference Presentations** at international venues
 
 ---
 

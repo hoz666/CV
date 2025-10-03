@@ -22,12 +22,12 @@ Collaborative research on bioretention cells, permeable pavements, and LID techn
 
 **Dr. Jianxun He** - Civil Engineering  
 Water quality modeling, urban hydrology, and watershed management  
-[Profile](https://profiles.ucalgary.ca/jianxun-he)
+[Profile](https://profiles.ucalgary.ca/jianxun-jennifer-he)
 
 ### **University of Victoria**
 **Dr. Rishi Gupta** - Civil Engineering  
 Sustainable construction materials, green infrastructure  
-[Profile](https://www.uvic.ca/research/centres/caer/people/home/faculty/guptar.php)
+[Profile](https://www.uvic.ca/ecs/civil/people/home/faculty-profiles/gupta-rishi.php)
 
 **Dr. Rustom Bhiladvala** - Mechanical Engineering  
 Sensor development for environmental monitoring  
@@ -35,6 +35,7 @@ Sensor development for environmental monitoring
 
 **Dr. Phalguni Mukhopadhyaya** - Civil Engineering  
 Green roof systems and building envelope performance  
+[Profile](https://www.uvic.ca/ecs/civil/people/home/faculty-profiles/mukhopadhyaya-phalguni.php)  
 
 ### **McMaster University**
 Long-standing collaboration on environmental hydraulics and water quality modeling
