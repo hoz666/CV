@@ -93,43 +93,7 @@ details > div a {
   color: #1a6ba8 !important;
 }
 
-/* Dark mode */
-@media (prefers-color-scheme: dark) {
-  details {
-    background-color: rgba(255,255,255,0.05);
-    border-color: rgba(255,255,255,0.1);
-  }
-  
-  summary {
-    color: #ffffff !important;
-  }
-  
-  summary:hover {
-    background-color: rgba(255,255,255,0.1);
-  }
-  
-  summary:after {
-    color: #ffffff !important;
-  }
-  
-  details[open] summary {
-    border-bottom-color: #ffffff;
-  }
-  
-  details > div,
-  details > div *,
-  details > div p,
-  details > div ul,
-  details > div li,
-  details > div strong,
-  details > div em {
-    color: #ffffff !important;
-  }
-  
-  details > div a {
-    color: #64b5f6 !important;
-  }
-}
+/* Dark mode removed to prevent white text on white background when system is in dark mode */
 </style>
 
 ## 👥 Environmental Informatics & Urban Water Resources Group

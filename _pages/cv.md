@@ -142,68 +142,7 @@ body .cv-content-inner span,
   color: #000000 !important;
 }
 
-/* Dark mode */
-@media (prefers-color-scheme: dark) {
-  body details,
-  details {
-    background-color: rgba(255,255,255,0.05) !important;
-    border-color: rgba(255,255,255,0.1) !important;
-  }
-  
-  body summary,
-  summary {
-    color: #ffffff !important;
-  }
-  
-  body summary:hover,
-  summary:hover {
-    background-color: rgba(255,255,255,0.1) !important;
-  }
-  
-  body summary:after,
-  summary:after {
-    color: #ffffff !important;
-  }
-  
-  body details[open] summary,
-  details[open] summary {
-    border-bottom-color: #ffffff !important;
-  }
-  
-  body .cv-content-inner,
-  body .cv-content-inner *,
-  body .cv-item,
-  body .cv-content-inner ul,
-  body .cv-content-inner li,
-  body .cv-content-inner p,
-  body .cv-content-inner strong,
-  body .cv-content-inner em,
-  body .cv-content-inner span,
-  body .cv-content-inner div,
-  .cv-content-inner,
-  .cv-content-inner *,
-  .cv-item,
-  .cv-content-inner ul,
-  .cv-content-inner li,
-  .cv-content-inner p,
-  .cv-content-inner strong,
-  .cv-content-inner em,
-  .cv-content-inner span {
-    color: #ffffff !important;
-  }
-  
-  body .cv-year,
-  body .cv-content-inner h3,
-  .cv-year,
-  .cv-content-inner h3 {
-    color: #ffffff !important;
-  }
-  
-  body .cv-content-inner a,
-  .cv-content-inner a {
-    color: #64b5f6 !important;
-  }
-}
+/* Dark mode removed - it caused white text on white background when Windows system is in dark mode */
 </style>
 
 ## Dr. Caterina Valeo, P.Eng.
