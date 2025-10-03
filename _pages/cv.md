@@ -10,76 +10,60 @@ redirect_from:
 {% include base_path %}
 
 <style>
-/* Collapsible section styles */
-.collapsible {
+/* Collapsible section styles using details/summary */
+details {
   background-color: #f8f9fa;
-  color: #2c3e50;
+  border-radius: 5px;
+  margin: 15px 0;
+  padding: 0;
+  border: 1px solid #dee2e6;
+}
+
+summary {
   cursor: pointer;
   padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
   font-size: 1.1em;
   font-weight: 600;
-  margin-top: 10px;
-  border-radius: 5px;
-  transition: 0.3s;
+  color: #2c3e50;
+  user-select: none;
+  list-style: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.collapsible:hover {
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary:hover {
   background-color: #e9ecef;
+  border-radius: 5px;
 }
 
-.collapsible:after {
-  content: '\002B';
-  font-size: 1.3em;
-  float: right;
+summary:after {
+  content: '+';
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #1a6ba8;
+  transition: transform 0.3s ease;
 }
 
-.collapsible.active:after {
-  content: "\2212";
+details[open] summary:after {
+  content: '−';
 }
 
-.cv-content {
-  padding: 0 18px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease-out;
-  background-color: #ffffff;
-}
-
-.cv-content.show {
-  padding: 18px;
-  border-left: 3px solid #1a6ba8;
+details[open] summary {
+  border-bottom: 2px solid #1a6ba8;
   margin-bottom: 15px;
 }
 
-/* Dark mode */
-@media (prefers-color-scheme: dark) {
-  .collapsible {
-    background-color: rgba(255,255,255,0.05);
-    color: #ffffff;
-  }
-  
-  .collapsible:hover {
-    background-color: rgba(255,255,255,0.1);
-  }
-  
-  .cv-content {
-    background-color: transparent;
-  }
-  
-  .cv-content.show {
-    border-left-color: #ffffff;
-  }
+.cv-content-inner {
+  padding: 0 18px 18px 18px;
 }
 
 .cv-item {
-  margin-bottom: 1em;
+  margin-bottom: 1.2em;
   line-height: 1.6;
 }
 
@@ -88,8 +72,46 @@ redirect_from:
   color: #1a6ba8;
 }
 
+.cv-content-inner h3 {
+  color: #1a6ba8;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  font-size: 1.1em;
+}
+
+.cv-content-inner ul {
+  margin-left: 1.5em;
+}
+
+.cv-content-inner li {
+  margin-bottom: 0.5em;
+}
+
+/* Dark mode */
 @media (prefers-color-scheme: dark) {
-  .cv-year {
+  details {
+    background-color: rgba(255,255,255,0.05);
+    border-color: rgba(255,255,255,0.1);
+  }
+  
+  summary {
+    color: #ffffff;
+  }
+  
+  summary:hover {
+    background-color: rgba(255,255,255,0.1);
+  }
+  
+  summary:after {
+    color: #ffffff;
+  }
+  
+  details[open] summary {
+    border-bottom-color: #ffffff;
+  }
+  
+  .cv-year,
+  .cv-content-inner h3 {
     color: #ffffff;
   }
 }
@@ -103,8 +125,9 @@ University of Victoria
 
 ---
 
-<button class="collapsible">Education</button>
-<div class="cv-content">
+<details>
+<summary>Education</summary>
+<div class="cv-content-inner">
   <div class="cv-item">
     <span class="cv-year">1998</span> • <strong>Ph.D.</strong> in Civil Engineering, McMaster University
   </div>
@@ -118,9 +141,11 @@ University of Victoria
     <span class="cv-year">1990</span> • <strong>B.Sc.</strong> in Physics, University of Toronto
   </div>
 </div>
+</details>
 
-<button class="collapsible">Work Experience</button>
-<div class="cv-content">
+<details>
+<summary>Work Experience</summary>
+<div class="cv-content-inner">
   <div class="cv-item">
     <span class="cv-year">July 2015 - Present</span><br>
     <strong>Professor</strong>, Mechanical Engineering, University of Victoria<br>
@@ -155,9 +180,11 @@ University of Victoria
     <strong>Assistant Professor</strong>, Civil and Geological Engineering, University of Manitoba
   </div>
 </div>
+</details>
 
-<button class="collapsible">Research Areas</button>
-<div class="cv-content">
+<details>
+<summary>Research Areas</summary>
+<div class="cv-content-inner">
   <h3>🌊 Sustainable Development of Urban Water Resources</h3>
   <ul>
     <li>Low impact development (permeable pavements, bioretention cells)</li>
@@ -179,9 +206,11 @@ University of Victoria
     <li>Snow cover and forest regeneration modeling</li>
   </ul>
 </div>
+</details>
 
-<button class="collapsible">Skills & Expertise</button>
-<div class="cv-content">
+<details>
+<summary>Skills & Expertise</summary>
+<div class="cv-content-inner">
   <ul>
     <li>Environmental Informatics</li>
     <li>Hydrological Modeling</li>
@@ -190,26 +219,7 @@ University of Victoria
     <li>Computational Fluid Dynamics</li>
   </ul>
 </div>
-
-<script>
-// JavaScript for collapsible sections
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.maxHeight){
-      content.style.maxHeight = null;
-      content.classList.remove("show");
-    } else {
-      content.style.maxHeight = content.scrollHeight + "px";
-      content.classList.add("show");
-    } 
-  });
-}
-</script>
+</details>
 
 ---
 
@@ -218,53 +228,3 @@ for (i = 0; i < coll.length; i++) {
   <p>For more details, visit my <a href="https://www.researchgate.net/profile/Caterina_Valeo">ResearchGate</a> or <a href="https://scholar.google.com/citations?user=eKd8-iEAAAAJ">Google Scholar</a> profile</p>
   <p>Contact: <a href="mailto:valeo@uvic.ca">valeo@uvic.ca</a></p>
 </div>
-
-* Field and Laboratory Research
-
-Teaching
-======
-* **MECH 601**: Advanced Topics in Fluid Mechanics (Graduate)
-  * University of Victoria
-  * Topics: Turbulence modeling, CFD, environmental fluid mechanics
-  
-* **MECH 345**: Fluid Mechanics II (Undergraduate)
-  * University of Victoria
-  * Topics: Compressible flow, pipe networks, open channel hydraulics
-  
-* **Environmental Informatics & Urban Water Resources** (Special Topics)
-  * University of Victoria
-  * Integration of IT, environmental science, and engineering for sustainable water management
-  
-* **Stormwater Management & Low Impact Development** (Graduate Seminar)
-  * University of Victoria
-  * Focus on LID technologies and green infrastructure for Canadian climates
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Selected Graduate Student Supervision
-======
-* 15+ PhD students graduated
-* 20+ Master's students graduated
-* Research areas: urban water resources, water quality, environmental modeling, geomatics
-
-Professional Designation
-======
-* Professional Engineer (PEng)
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
