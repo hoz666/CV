@@ -18,9 +18,9 @@
 
 .swiper-container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 900px;
   margin: 0 auto;
-  padding: 0 20px 50px 20px;
+  padding: 0 20px 60px 20px;
   position: relative;
 }
 
@@ -29,13 +29,19 @@
   height: auto;
   display: flex;
   flex-direction: column;
+  opacity: 0;
+  transition: opacity 0.8s ease;
+}
+
+.swiper-slide-active {
+  opacity: 1;
 }
 
 .slide-card {
   background: white;
-  border-radius: 10px;
+  border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   height: 100%;
   display: flex;
@@ -43,29 +49,29 @@
 }
 
 .slide-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 25px rgba(26, 107, 168, 0.2);
+  transform: translateY(-8px);
+  box-shadow: 0 12px 40px rgba(26, 107, 168, 0.25);
 }
 
 .slide-image {
   width: 100%;
-  height: 250px;
+  height: 400px;
   object-fit: cover;
   display: block;
 }
 
 .slide-content {
-  padding: 1.5em;
+  padding: 2em;
   flex-grow: 1;
   display: flex;
   flex-direction: column;
 }
 
 .slide-title {
-  font-size: 1.2em;
+  font-size: 1.5em;
   font-weight: 600;
   color: #1a6ba8;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.8em;
   text-decoration: none;
   display: block;
   transition: color 0.3s ease;
@@ -78,16 +84,18 @@
 
 .slide-description {
   color: #555;
-  font-size: 0.95em;
-  line-height: 1.6;
-  margin-bottom: 1em;
+  font-size: 1.05em;
+  line-height: 1.7;
+  margin-bottom: 1.2em;
   flex-grow: 1;
 }
 
 .slide-meta {
-  font-size: 0.85em;
+  font-size: 0.9em;
   color: #888;
   font-style: italic;
+  padding-top: 1em;
+  border-top: 1px solid #eee;
 }
 
 /* Navigation Buttons */
@@ -115,19 +123,32 @@
   font-weight: bold;
 }
 
-/* Pagination Dots */
+/* Pagination Dots - Enhanced for single slide view */
+.swiper-pagination {
+  bottom: 20px !important;
+  position: relative;
+  margin-top: 20px;
+}
+
 .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
+  width: 14px;
+  height: 14px;
   background: #ccc;
   opacity: 1;
   transition: all 0.3s ease;
+  margin: 0 6px !important;
+  cursor: pointer;
+}
+
+.swiper-pagination-bullet:hover {
+  background: #1a6ba8;
+  transform: scale(1.2);
 }
 
 .swiper-pagination-bullet-active {
   background: #1a6ba8;
-  width: 30px;
-  border-radius: 6px;
+  width: 40px;
+  border-radius: 7px;
 }
 
 /* Responsive Adjustments */
@@ -320,30 +341,21 @@ document.addEventListener('DOMContentLoaded', function() {
     // Loop & Autoplay
     loop: true,
     autoplay: {
-      delay: 3000,
+      delay: 4000,
       disableOnInteraction: false,
       pauseOnMouseEnter: true,
     },
     
     // Speed & Effect
-    speed: 600,
-    effect: 'slide',
-    
-    // Responsive Breakpoints
-    slidesPerView: 1,
-    spaceBetween: 20,
-    breakpoints: {
-      // ≥768px: 2 slides
-      768: {
-        slidesPerView: 2,
-        spaceBetween: 25,
-      },
-      // ≥1200px: 3 slides
-      1200: {
-        slidesPerView: 3,
-        spaceBetween: 30,
-      },
+    speed: 800,
+    effect: 'fade',
+    fadeEffect: {
+      crossFade: true
     },
+    
+    // Always show 1 slide at a time (classic carousel)
+    slidesPerView: 1,
+    spaceBetween: 0,
     
     // Navigation
     navigation: {
