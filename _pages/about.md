@@ -28,10 +28,16 @@ Dr. Valeo's research team uses a variety of hardware, software, field and labora
 </style>
 
 <script>
-(function() {
+window.addEventListener('load', function() {
   const text = "Innovating Green Infrastructure for Climate-Resilient Cities";
   const typewriterElement = document.getElementById('typewriter-text');
   const cursorElement = document.getElementById('typewriter-cursor');
+  
+  if (!typewriterElement || !cursorElement) {
+    console.error('Typewriter elements not found');
+    return;
+  }
+  
   let index = 0;
   
   function typeWriter() {
@@ -39,19 +45,12 @@ Dr. Valeo's research team uses a variety of hardware, software, field and labora
       typewriterElement.textContent += text.charAt(index);
       index++;
       setTimeout(typeWriter, 80); // 80ms per character
-    } else {
-      // Keep cursor blinking after typing is complete
-      cursorElement.style.display = 'inline';
     }
   }
   
-  // Start typing when page loads
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', typeWriter);
-  } else {
-    typeWriter();
-  }
-})();
+  // Start typing after a short delay
+  setTimeout(typeWriter, 500);
+});
 </script>
 
 <div style="text-align: center; margin: 2em 0; position: relative; z-index: 10;">
