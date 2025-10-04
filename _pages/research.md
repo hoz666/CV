@@ -223,13 +223,13 @@ Dr. Caterina Valeo's research program focuses on advancing sustainable urban wat
 ## **Selected Publications**
 
 For a comprehensive list of publications, please visit:
-- **ResearchGate:** [https://www.researchgate.net/profile/Caterina_Valeo](https://www.researchgate.net/profile/Caterina_Valeo)
+- **ResearchGate:** [Click here](https://www.researchgate.net/profile/Caterina_Valeo)
 - **Google Scholar:** [Caterina Valeo Profile](https://scholar.google.com/citations?user=eKd8-iEAAAAJ)
-- **Complete CV:** Available on the [CV page](/cv/)
+- **Complete CV:** Available on the [CV page](/CV/cv/)
 
 **Recent High-Impact Publications:**
 - Valeo, C. et al. (2020). "Bioretention systems for stormwater treatment: A comprehensive review." *Journal of Hydrology*.
-- Zhang, Z. & Valeo, C. (2025). "Fuzzy Logic PCSWMM for LID Optimization under Climate Uncertainty." *Journal of Hydrology X*.
+- Zhang, Z. & Valeo, C. (2025). "Fuzzy-based input method for uncertainty quantification in a deterministic model comparison with ChatGPT for peak flow prediction." *Journal of Hydrology X*.
 - Valeo, C. (2018). *Permeable Pavements: Design, Construction, and Performance*. Springer.
 
 ---

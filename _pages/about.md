@@ -16,6 +16,19 @@ Dr. Valeo's research team uses a variety of hardware, software, field and labora
 > **Environmental Informatics:** "Research and system development focusing on the environmental sciences relating to the creation, collection, storage, processing, modelling, interpretation, display and dissemination of data and information."  
 > — *UK Natural Environment Research Council*
 
+<p style="text-align: center; font-size: 1.3em; color: #1a6ba8; font-weight: 600; margin: 2em 0 1.5em 0;">
+🌊 Innovating Green Infrastructure for Climate-Resilient Cities
+</p>
+
+<div style="text-align: center; margin: 2em 0;">
+  <a href="/CV/graduate-opportunities/" style="display: inline-block; padding: 12px 28px; margin: 0 10px; background-color: #1a6ba8; color: white; text-decoration: none; border-radius: 5px; font-weight: 600; transition: background-color 0.3s;">
+    🎓 Open Positions
+  </a>
+  <a href="mailto:valeo@uvic.ca" style="display: inline-block; padding: 12px 28px; margin: 0 10px; background-color: #2c3e50; color: white; text-decoration: none; border-radius: 5px; font-weight: 600; transition: background-color 0.3s;">
+    ✉️ Email Dr. Valeo
+  </a>
+</div>
+
 {% include swiper-carousel.html %}
 
 ---
@@ -45,7 +58,7 @@ This research investigates the efficacy of low impact development (LID) options 
 - Bioretention Cell Detoxification Research
 - Permeable Pavement Performance in Cold Climates
 
-**Collaborators:** [Dr. Angus Chu](https://profiles.ucalgary.ca/angus-chu), [Dr. Jianxun He](https://profiles.ucalgary.ca/jianxun-he) (University of Calgary), [Dr. Rishi Gupta](https://www.uvic.ca/research/centres/caer/people/home/faculty/guptar.php), [Dr. Rustom Bhiladvala](https://www.uvic.ca/engineering/mechanical/people/home/faculty/bhiladv.php) (University of Victoria)
+**Collaborators:** [Dr. Angus Chu](https://profiles.ucalgary.ca/angus-chu), [Dr. Jianxun He](https://profiles.ucalgary.ca/jianxun-jennifer-he) (University of Calgary), [Dr. Rishi Gupta](https://www.uvic.ca/ecs/civil/people/home/faculty/gupta-rishi.php), [Dr. Rustom Bhiladvala](https://www.uvic.ca/ecs/biomedical/faculty-staff/faculty/bhiladvalarustom.php) (University of Victoria)
 
 ### 💧 Water Quality Modelling
 
@@ -56,7 +69,7 @@ Development of modelling and monitoring programs that provide insight into:
 
 **Study Sites:** Bow River, Elbow River (Alberta), nearshore areas of the Capital Regional District (Victoria), well water systems throughout Alberta
 
-**Collaborators:** Dr. Usman Khan, Dr. Jennifer He, Dr. Angus Chu, [Dr. Cathryn Ryan](http://www.ucalgary.ca/ryan/), [Dr. Norman Neumann](http://www.publichealth.ualberta.ca/research/researchers_supersivors/faculty/neumann.aspx), [Dr. Sylvia Checkley](https://vet.ucalgary.ca/profiles/sylvia-checkley)
+**Collaborators:** Dr. Usman Khan, Dr. Jennifer He, Dr. Angus Chu, [Dr. Cathryn Ryan](https://profiles.ucalgary.ca/cathy-ryan), [Dr. Norman Neumann](https://apps.ualberta.ca/directory/person/nfneuman), [Dr. Sylvia Checkley](https://profiles.ucalgary.ca/sylvia-checkley)
 
 ### 🛰️ Geomatics & Remote Sensing
 

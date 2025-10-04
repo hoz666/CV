@@ -31,7 +31,7 @@ Sustainable construction materials, green infrastructure
 
 **Dr. Rustom Bhiladvala** - Mechanical Engineering  
 Sensor development for environmental monitoring  
-[Profile](https://www.uvic.ca/engineering/mechanical/people/home/faculty/bhiladv.php)
+[Profile](https://www.uvic.ca/ecs/biomedical/faculty-staff/faculty/bhiladvalarustom.php)
 
 **Dr. Phalguni Mukhopadhyaya** - Civil Engineering  
 Green roof systems and building envelope performance  

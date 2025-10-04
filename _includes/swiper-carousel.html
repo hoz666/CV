@@ -96,10 +96,53 @@
   font-size: 1.75em;
   font-weight: 700;
   color: #2c3e50;
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
   display: block;
   line-height: 1.3;
   letter-spacing: -0.3px;
+}
+
+.slide-meta {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1em;
+  flex-wrap: wrap;
+}
+
+.slide-date {
+  font-size: 0.9em;
+  color: #666;
+  font-weight: 500;
+}
+
+.slide-tag {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 0.85em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.tag-news {
+  background-color: #e3f2fd;
+  color: #1565c0;
+}
+
+.tag-paper {
+  background-color: #f3e5f5;
+  color: #6a1b9a;
+}
+
+.tag-award {
+  background-color: #fff3e0;
+  color: #e65100;
+}
+
+.tag-talk {
+  background-color: #e8f5e9;
+  color: #2e7d32;
 }
 
 .slide-description {
@@ -229,6 +272,10 @@
           <img src="{{ "/images/lab/rainwater-tree-trench.jpg" | prepend: base_path }}" alt="Happy Thanksgiving Day" class="slide-image">
           <div class="slide-content">
             <h3 class="slide-title">Happy Thanksgiving Day</h3>
+            <div class="slide-meta">
+              <span class="slide-date">📅 October 2025</span>
+              <span class="slide-tag tag-news">News</span>
+            </div>
             <p class="slide-description">
               Thank you, Dr. Valeo, for your continuous guidance and support – this website was created by Zhonghao using all available online resources, and you can modify or update it as needed.
             </p>
@@ -242,6 +289,10 @@
           <img src="{{ "/images/lab/bioretention-cell.jpg" | prepend: base_path }}" alt="Rainwater Tree Trenches Project" class="slide-image">
           <div class="slide-content">
             <h3 class="slide-title">Rainwater Tree Trenches (RTTs) for Urban Cooling</h3>
+            <div class="slide-meta">
+              <span class="slide-date">📅 Ongoing Project</span>
+              <span class="slide-tag tag-news">News</span>
+            </div>
             <p class="slide-description">
               Innovative stormwater management system combining urban forestry with climate adaptation to combat heat islands in Vancouver.
             </p>
@@ -255,6 +306,10 @@
           <img src="{{ "/images/lab/permeable-pavement.jpg" | prepend: base_path }}" alt="Fuzzy ChatGPT Research Paper" class="slide-image">
           <div class="slide-content">
             <h3 class="slide-title">Fuzzy-Based ChatGPT for Peak Flow Prediction</h3>
+            <div class="slide-meta">
+              <span class="slide-date">📅 October 2, 2025</span>
+              <span class="slide-tag tag-paper">Paper</span>
+            </div>
             <p class="slide-description">
               Published in Journal of Hydrology X: Novel AI-based hydrological modeling integrating fuzzy mathematics with generative AI for uncertainty quantification.
             </p>
@@ -268,6 +323,10 @@
           <img src="{{ "/images/lab/velocity-meter.jpg" | prepend: base_path }}" alt="Bioretention Nutrient Leaching Study" class="slide-image">
           <div class="slide-content">
             <h3 class="slide-title">Bioretention Systems Nutrient Leaching Study</h3>
+            <div class="slide-meta">
+              <span class="slide-date">📅 December 2024</span>
+              <span class="slide-tag tag-talk">Talk</span>
+            </div>
             <p class="slide-description">
               AGU Fall Meeting 2024 presentation investigating temporal evolution of phosphorus and nitrogen leaching in 24 field bioretention mesocosms.
             </p>
@@ -281,6 +340,10 @@
           <img src="{{ "/images/lab/climate-modeling.jpg" | prepend: base_path }}" alt="CAWQ Award Winner" class="slide-image">
           <div class="slide-content">
             <h3 class="slide-title">Philip H. Jones Award – Best Young Water Professional</h3>
+            <div class="slide-meta">
+              <span class="slide-date">📅 July 24, 2025</span>
+              <span class="slide-tag tag-award">Award</span>
+            </div>
             <p class="slide-description">
               First place at 2025 CAWQ Atlantic Symposium (St. John's, NL) for presenting Fuzzy GPT application in peak flow prediction.
             </p>
@@ -294,6 +357,10 @@
           <img src="{{ "/images/lab/lab-facilities.jpg" | prepend: base_path }}" alt="Signal Hill St. John's" class="slide-image">
           <div class="slide-content">
             <h3 class="slide-title">CAWQ Conference Trip to Signal Hill</h3>
+            <div class="slide-meta">
+              <span class="slide-date">📅 July 2025</span>
+              <span class="slide-tag tag-news">News</span>
+            </div>
             <p class="slide-description">
               Exploring Signal Hill National Historic Site during the Atlantic Symposium in St. John's, Newfoundland and Labrador.
             </p>
