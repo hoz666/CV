@@ -150,6 +150,8 @@
   width: 44px;
   height: 44px;
   transition: all 0.3s ease;
+  z-index: 20 !important;
+  cursor: pointer !important;
 }
 
 .swiper-button-next:hover,
@@ -396,48 +398,71 @@
 <!-- Swiper JS CDN -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-<!-- Initialize Swiper -->
+<!-- Initialize Swiper with multiple fallbacks -->
 <script>
-// Wait for page to fully load
-window.addEventListener('load', function() {
-  // Initialize Swiper
-  var swiper = new Swiper('.research-swiper', {
-    // Single slide mode
-    slidesPerView: 1,
-    spaceBetween: 0,
+(function() {
+  var swiperInstance = null;
+  
+  function initializeSwiper() {
+    // Check if already initialized
+    if (swiperInstance) {
+      return;
+    }
     
-    // Enable loop
-    loop: true,
+    // Check if Swiper is available
+    if (typeof Swiper === 'undefined') {
+      console.log('Swiper not loaded yet, retrying...');
+      setTimeout(initializeSwiper, 100);
+      return;
+    }
     
-    // Autoplay
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false,
-    },
+    // Check if container exists
+    var container = document.querySelector('.research-swiper');
+    if (!container) {
+      console.log('Container not found, retrying...');
+      setTimeout(initializeSwiper, 100);
+      return;
+    }
     
-    // Speed
-    speed: 800,
-    
-    // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-    
-    // Pagination dots
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
-      dynamicBullets: false,
-    },
-    
-    // Enable grabbing
-    grabCursor: true,
-    
-    // Keyboard navigation
-    keyboard: {
-      enabled: true,
-    },
-  });
-});
+    // Initialize Swiper
+    try {
+      swiperInstance = new Swiper('.research-swiper', {
+        slidesPerView: 1,
+        spaceBetween: 0,
+        loop: true,
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false,
+        },
+        speed: 800,
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        grabCursor: true,
+        keyboard: {
+          enabled: true,
+        },
+      });
+      console.log('Swiper initialized successfully!');
+    } catch (e) {
+      console.error('Swiper initialization error:', e);
+    }
+  }
+  
+  // Try multiple initialization points
+  if (document.readyState === 'complete') {
+    initializeSwiper();
+  } else {
+    window.addEventListener('load', initializeSwiper);
+    document.addEventListener('DOMContentLoaded', initializeSwiper);
+  }
+  
+  // Fallback after 2 seconds
+  setTimeout(initializeSwiper, 2000);
+})();
 </script>
