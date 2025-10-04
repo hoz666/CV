@@ -20,11 +20,11 @@ Dr. Valeo's research team uses a variety of hardware, software, field and labora
 🌊 Innovating Green Infrastructure for Climate-Resilient Cities
 </p>
 
-<div style="text-align: center; margin: 2em 0;">
-  <a href="/CV/graduate-opportunities/" style="display: inline-block; padding: 12px 28px; margin: 0 10px; background-color: #1a6ba8; color: white; text-decoration: none; border-radius: 5px; font-weight: 600; transition: background-color 0.3s;">
+<div style="text-align: center; margin: 2em 0; position: relative; z-index: 10;">
+  <a href="/CV/graduate-opportunities/" style="display: inline-block; padding: 12px 28px; margin: 0 10px; background-color: #1a6ba8; color: white !important; text-decoration: none; border-radius: 5px; font-weight: 600; transition: all 0.3s; cursor: pointer;" onmouseover="this.style.backgroundColor='#145a8e'" onmouseout="this.style.backgroundColor='#1a6ba8'">
     🎓 Open Positions
   </a>
-  <a href="mailto:valeo@uvic.ca" style="display: inline-block; padding: 12px 28px; margin: 0 10px; background-color: #2c3e50; color: white; text-decoration: none; border-radius: 5px; font-weight: 600; transition: background-color 0.3s;">
+  <a href="mailto:valeo@uvic.ca" style="display: inline-block; padding: 12px 28px; margin: 0 10px; background-color: #2c3e50; color: white !important; text-decoration: none; border-radius: 5px; font-weight: 600; transition: all 0.3s; cursor: pointer;" onmouseover="this.style.backgroundColor='#1a252f'" onmouseout="this.style.backgroundColor='#2c3e50'">
     ✉️ Email Dr. Valeo
   </a>
 </div>

@@ -6,9 +6,33 @@ h1, h2, h3, h4, h5, h6 {
   color: #000000 !important;
 }
 
-/* 白天模式 - 所有文字黑色 */
-body, p, li, td, th, div, span, strong, em, a {
+/* 白天模式 - 所有文字黑色，但链接保持可点击状态 */
+body, p, li, td, th, div, span, strong, em {
   color: #000000 !important;
+}
+
+/* 确保所有链接可点击 */
+a {
+  cursor: pointer !important;
+  pointer-events: auto !important;
+  color: #1a6ba8 !important;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #145a8e !important;
+  text-decoration: underline;
+}
+
+/* mailto链接特殊样式确保可见 */
+a[href^="mailto:"] {
+  cursor: pointer !important;
+  pointer-events: auto !important;
+  color: #1a6ba8 !important;
+}
+
+a[href^="mailto:"]:hover {
+  color: #145a8e !important;
 }
 
 hr {
@@ -30,8 +54,30 @@ hr {
     border-color: rgba(200, 200, 200, 0.2) !important;
   }
   
-  p, li, td, th, div, span, strong, em, a {
+  p, li, td, th, div, span, strong, em {
     color: #ffffff !important;
+  }
+  
+  /* 夜间模式链接样式 */
+  a {
+    cursor: pointer !important;
+    pointer-events: auto !important;
+    color: #64b5f6 !important;
+    text-decoration: underline;
+  }
+  
+  a:hover {
+    color: #90caf9 !important;
+  }
+  
+  a[href^="mailto:"] {
+    cursor: pointer !important;
+    pointer-events: auto !important;
+    color: #64b5f6 !important;
+  }
+  
+  a[href^="mailto:"]:hover {
+    color: #90caf9 !important;
   }
 }
 
