@@ -7,6 +7,10 @@ redirect_from:
   - /about.html
 ---
 
+<p style="text-align: center; font-size: 1.3em; color: #1a6ba8; font-weight: 600; margin: 1.5em 0 2em 0; min-height: 1.5em;">
+🌊 <span id="typewriter-text"></span><span id="typewriter-cursor">|</span>
+</p>
+
 ## Welcome
 
 Dr. Caterina Valeo is a Professor of Mechanical Engineering at the University of Victoria and an Adjunct Professor in Civil Engineering at the University of Calgary. Her research program develops **environmental informatics** tools for application to urban water resources engineering.
@@ -15,10 +19,6 @@ Dr. Valeo's research team uses a variety of hardware, software, field and labora
 
 > **Environmental Informatics:** "Research and system development focusing on the environmental sciences relating to the creation, collection, storage, processing, modelling, interpretation, display and dissemination of data and information."  
 > — *UK Natural Environment Research Council*
-
-<p style="text-align: center; font-size: 1.3em; color: #1a6ba8; font-weight: 600; margin: 2em 0 1.5em 0; min-height: 1.5em;">
-🌊 <span id="typewriter-text"></span><span id="typewriter-cursor">|</span>
-</p>
 
 <div style="text-align: center; margin: 2em 0; position: relative; z-index: 10;">
   <a href="/CV/graduate-opportunities/" style="display: inline-block; padding: 12px 28px; margin: 0 10px; background-color: #1a6ba8; color: white !important; text-decoration: none; border-radius: 5px; font-weight: 600; transition: all 0.3s; cursor: pointer;" onmouseover="this.style.backgroundColor='#145a8e'" onmouseout="this.style.backgroundColor='#1a6ba8'">
