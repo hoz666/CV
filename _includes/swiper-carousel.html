@@ -210,7 +210,7 @@
   }
   
   .swiper {
-    padding: 0 20px 40px 20px;
+    padding: 0 0 40px 0;
   }
   
   .slide-image {
@@ -230,15 +230,15 @@
     line-height: 1.6;
   }
   
+  /* Hide navigation arrows on mobile - use swipe instead */
   .swiper-button-next,
   .swiper-button-prev {
-    width: 45px;
-    height: 45px;
+    display: none !important;
   }
   
-  .swiper-button-next:after,
-  .swiper-button-prev:after {
-    font-size: 18px;
+  /* Hide pagination dots on mobile - use swipe instead */
+  .swiper-pagination {
+    display: none !important;
   }
 }
 </style>
