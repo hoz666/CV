@@ -46,7 +46,7 @@ Victoria, BC V8W 2Y2, Canada
 
 <div style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin: 2em 0;">
   <iframe 
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d330.4784772694644!2d-123.31228134868383!3d48.46300298697252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548f71535d1b7f53%3A0x7d45d8b8f9833ae5!2sEngineering%20Office%20Wing%2C%20University%20of%20Victoria!5e0!3m2!1sen!2sca!4v1735689012345!5m2!1sen!2sca" 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2650.425607130673!2d-123.31379708434442!3d48.46300297926138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548f71535d1b7f53%3A0x7d45d8b8f9833ae5!2sEngineering%20Office%20Wing%2C%20University%20of%20Victoria!5e0!3m2!1sen!2sca!4v1635789012345!5m2!1sen!2sca" 
     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
     allowfullscreen="" 
     loading="lazy" 
