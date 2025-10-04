@@ -16,6 +16,8 @@ Dr. Valeo's research team uses a variety of hardware, software, field and labora
 > **Environmental Informatics:** "Research and system development focusing on the environmental sciences relating to the creation, collection, storage, processing, modelling, interpretation, display and dissemination of data and information."  
 > — *UK Natural Environment Research Council*
 
+{% include swiper-carousel.html %}
+
 ---
 
 ## 🌟 Featured Research Project
