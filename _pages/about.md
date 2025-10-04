@@ -16,9 +16,43 @@ Dr. Valeo's research team uses a variety of hardware, software, field and labora
 > **Environmental Informatics:** "Research and system development focusing on the environmental sciences relating to the creation, collection, storage, processing, modelling, interpretation, display and dissemination of data and information."  
 > — *UK Natural Environment Research Council*
 
-<p style="text-align: center; font-size: 1.3em; color: #1a6ba8; font-weight: 600; margin: 2em 0 1.5em 0;">
-🌊 Innovating Green Infrastructure for Climate-Resilient Cities
+<p style="text-align: center; font-size: 1.3em; color: #1a6ba8; font-weight: 600; margin: 2em 0 1.5em 0; min-height: 1.5em;">
+🌊 <span id="typewriter-text"></span><span id="typewriter-cursor" style="animation: blink 1s step-end infinite;">|</span>
 </p>
+
+<style>
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+</style>
+
+<script>
+(function() {
+  const text = "Innovating Green Infrastructure for Climate-Resilient Cities";
+  const typewriterElement = document.getElementById('typewriter-text');
+  const cursorElement = document.getElementById('typewriter-cursor');
+  let index = 0;
+  
+  function typeWriter() {
+    if (index < text.length) {
+      typewriterElement.textContent += text.charAt(index);
+      index++;
+      setTimeout(typeWriter, 80); // 80ms per character
+    } else {
+      // Keep cursor blinking after typing is complete
+      cursorElement.style.display = 'inline';
+    }
+  }
+  
+  // Start typing when page loads
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', typeWriter);
+  } else {
+    typeWriter();
+  }
+})();
+</script>
 
 <div style="text-align: center; margin: 2em 0; position: relative; z-index: 10;">
   <a href="/CV/graduate-opportunities/" style="display: inline-block; padding: 12px 28px; margin: 0 10px; background-color: #1a6ba8; color: white !important; text-decoration: none; border-radius: 5px; font-weight: 600; transition: all 0.3s; cursor: pointer;" onmouseover="this.style.backgroundColor='#145a8e'" onmouseout="this.style.backgroundColor='#1a6ba8'">
