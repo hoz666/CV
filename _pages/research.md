@@ -106,13 +106,13 @@ Dr. Caterina Valeo's research program focuses on advancing sustainable urban wat
 <p>Development and application of advanced hydrological models for urban stormwater management, flood prediction, and climate change adaptation. Research includes:</p>
 
 <ul>
-  <li><strong>Computational Hydrological Modeling:</strong> Integration of physics-based and data-driven models (PCSWMM, SWMM, EPA-SWMM) for urban drainage system analysis</li>
-  <li><strong>Multi-scale Watershed Modeling:</strong> From plot-scale bioretention cells to city-wide stormwater networks</li>
-  <li><strong>Uncertainty Analysis:</strong> Probabilistic and fuzzy logic approaches to address parameter uncertainty in urban hydrology</li>
-  <li><strong>Cold Climate Hydrology:</strong> Specialized models for snowmelt, freeze-thaw cycles, and performance of green infrastructure under Canadian climate conditions</li>
+  <li><strong>Computational hydrological modeling:</strong> Integration of physics-based and data-driven models (PCSWMM, SWMM, EPA-SWMM) for urban drainage system analysis</li>
+  <li><strong>Multi-scale watershed modeling:</strong> From plot-scale bioretention cells to city-wide stormwater networks</li>
+  <li><strong>Uncertainty analysis:</strong> Probabilistic and fuzzy logic approaches to address parameter uncertainty in urban hydrology</li>
+  <li><strong>Cold climate hydrology:</strong> Specialized models for snowmelt, freeze-thaw cycles, and performance of green infrastructure under Canadian climate conditions</li>
 </ul>
 
-<p><strong>Key Applications:</strong></p>
+<p><strong>Key applications:</strong></p>
 <ul>
   <li>Low Impact Development (LID) optimization and performance assessment</li>
   <li>Combined sewer overflow prediction and mitigation</li>
@@ -128,13 +128,13 @@ Dr. Caterina Valeo's research program focuses on advancing sustainable urban wat
 <p>Design, monitoring, and performance evaluation of green infrastructure for sustainable stormwater management in cold climates:</p>
 
 <ul>
-  <li><strong>Permeable Pavement Systems:</strong> Long-term hydraulic performance, clogging mechanisms, and maintenance protocols</li>
-  <li><strong>Bioretention Cells & Rain Gardens:</strong> Water quality treatment efficiency, heavy metal removal, and evapotranspiration dynamics</li>
-  <li><strong>Rain Tree Trenches (RTTs):</strong> Integration of urban forestry and stormwater management for climate resilience</li>
-  <li><strong>Green Roofs:</strong> Thermal performance, stormwater retention, and co-benefits for urban heat island mitigation</li>
+  <li><strong>Permeable pavement systems:</strong> Long-term hydraulic performance, clogging mechanisms, and maintenance protocols</li>
+  <li><strong>Bioretention cells & rain gardens:</strong> Water quality treatment efficiency, heavy metal removal, and evapotranspiration dynamics</li>
+  <li><strong>Rain tree trenches (RTTs):</strong> Integration of urban forestry and stormwater management for climate resilience</li>
+  <li><strong>Green roofs:</strong> Thermal performance, stormwater retention, and co-benefits for urban heat island mitigation</li>
 </ul>
 
-<p><strong>Research Focus:</strong></p>
+<p><strong>Research focus:</strong></p>
 <ul>
   <li>Field monitoring networks with real-time sensor arrays</li>
   <li>Performance metrics for Canadian climate zones</li>
@@ -150,13 +150,13 @@ Dr. Caterina Valeo's research program focuses on advancing sustainable urban wat
 <p>Investigation of pollutant fate and transport in urban water systems, with emphasis on:</p>
 
 <ul>
-  <li><strong>Heavy Metal Removal:</strong> Bioretention media performance for lead, zinc, copper, and cadmium</li>
-  <li><strong>Treatment Pond Hydraulics:</strong> Optimization of detention pond configurations for sediment and nutrient removal</li>
-  <li><strong>First Flush Analysis:</strong> Characterization of high-concentration stormwater pollution events</li>
-  <li><strong>Modeling Pollutant Transport:</strong> Advection-dispersion models for water quality in urban drainage networks</li>
+  <li><strong>Heavy metal removal:</strong> Bioretention media performance for lead, zinc, copper, and cadmium</li>
+  <li><strong>Treatment pond hydraulics:</strong> Optimization of detention pond configurations for sediment and nutrient removal</li>
+  <li><strong>First flush analysis:</strong> Characterization of high-concentration stormwater pollution events</li>
+  <li><strong>Modeling pollutant transport:</strong> Advection-dispersion models for water quality in urban drainage networks</li>
 </ul>
 
-<p><strong>Collaborative Projects:</strong></p>
+<p><strong>Collaborative projects:</strong></p>
 <ul>
   <li>Water quality monitoring partnerships with City of Victoria and City of Vancouver</li>
   <li>Integration of water quality sensors into LID monitoring systems</li>
@@ -171,14 +171,14 @@ Dr. Caterina Valeo's research program focuses on advancing sustainable urban wat
 <p>Emerging research in artificial intelligence for water resources engineering:</p>
 
 <ul>
-  <li><strong>Predictive Modeling:</strong> Machine learning for rainfall-runoff prediction and flood forecasting</li>
-  <li><strong>Pattern Recognition:</strong> AI-based analysis of sensor data from LID installations</li>
-  <li><strong>Design Optimization:</strong> Generative adversarial networks (GANs) for exploring LID design alternatives</li>
-  <li><strong>Knowledge Discovery:</strong> Natural language processing for synthesizing research literature on climate adaptation strategies</li>
-  <li><strong>Digital Twins:</strong> Integration of AI with real-time monitoring for adaptive urban water management</li>
+  <li><strong>Predictive modeling:</strong> Machine learning for rainfall-runoff prediction and flood forecasting</li>
+  <li><strong>Pattern recognition:</strong> AI-based analysis of sensor data from LID installations</li>
+  <li><strong>Design optimization:</strong> Generative adversarial networks (GANs) for exploring LID design alternatives</li>
+  <li><strong>Knowledge discovery:</strong> Natural language processing for synthesizing research literature on climate adaptation strategies</li>
+  <li><strong>Digital twins:</strong> Integration of AI with real-time monitoring for adaptive urban water management</li>
 </ul>
 
-<p><strong>Future Directions:</strong></p>
+<p><strong>Future directions:</strong></p>
 <ul>
   <li>Large language models for automated report generation and knowledge synthesis</li>
   <li>Computer vision for automated inspection of stormwater infrastructure</li>
@@ -193,13 +193,13 @@ Dr. Caterina Valeo's research program focuses on advancing sustainable urban wat
 <p>Development and deployment of advanced sensor networks for urban water systems:</p>
 
 <ul>
-  <li><strong>Custom Velocity Meters:</strong> Design of low-cost, Arduino-based flow measurement devices for shallow urban runoff</li>
-  <li><strong>Multi-parameter Monitoring:</strong> Integration of water level, flow velocity, temperature, and water quality sensors</li>
-  <li><strong>Data Management Pipelines:</strong> Automated data collection, quality control, and visualization platforms</li>
-  <li><strong>Cold Climate Adaptations:</strong> Winterization techniques for year-round monitoring in Canadian climates</li>
+  <li><strong>Custom velocity meters:</strong> Design of low-cost, Arduino-based flow measurement devices for shallow urban runoff</li>
+  <li><strong>Multi-parameter monitoring:</strong> Integration of water level, flow velocity, temperature, and water quality sensors</li>
+  <li><strong>Data management pipelines:</strong> Automated data collection, quality control, and visualization platforms</li>
+  <li><strong>Cold climate adaptations:</strong> Winterization techniques for year-round monitoring in Canadian climates</li>
 </ul>
 
-<p><strong>Technical Innovations:</strong></p>
+<p><strong>Technical innovations:</strong></p>
 <ul>
   <li>Open-source hardware designs for hydrological monitoring</li>
   <li>Wireless sensor networks for distributed monitoring</li>
