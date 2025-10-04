@@ -1,13 +1,7 @@
 ---
 layout: archive
-title: "Cont  <div style="background: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #1a6ba8; margin-bottom: 1.5em;">
-    <h3 style="margin-top: 0; color: #2c3e50;">Engineering Office Wing (EOW)</h3>
-    <p style="margin-bottom: 0.5em;"><strong>🚪 Room:</strong> 543</p>
-    <p style="margin-bottom: 0.5em;"><strong>📍 Address:</strong> 9982 Ring Road, Victoria, BC V8P 3E6</p>
-    <p style="margin-bottom: 0.5em;"><strong>🏛️ Building:</strong> Floor 5, University of Victoria</p>
-    <p style="margin-bottom: 0.5em;"><strong>🌐 Official UVic Website:</strong> <a href="https://www.uvic.ca/ecs/mechanical/faculty-and-staff/faculty/profiles/valeo-caterina.php" target="_blank">Click here</a></p>
-    <p style="margin-bottom: 0;"><strong>📞 Phone:</strong> 1-250-721-8895</p>
-  </div>rmalink: /contact/
+title: "Contact"
+permalink: /contact/
 author_profile: true
 ---
 
