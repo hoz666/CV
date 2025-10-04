@@ -44,13 +44,21 @@
   padding: 0 40px 80px 40px;
   position: relative;
   min-height: 600px;
+  overflow: hidden;
 }
 
-/* Slide Styling - Clean & Modern */
+.swiper-wrapper {
+  display: flex;
+  transition-timing-function: ease;
+}
+
+/* Slide Styling - Single Image Mode */
 .swiper-slide {
+  width: 100% !important;
   height: auto;
   display: flex;
   flex-direction: column;
+  flex-shrink: 0;
 }
 
 .slide-card {
@@ -386,21 +394,19 @@ document.addEventListener('DOMContentLoaded', function() {
     // Loop & Autoplay
     loop: true,
     autoplay: {
-      delay: 4000,
+      delay: 5000,
       disableOnInteraction: false,
       pauseOnMouseEnter: true,
     },
     
-    // Speed & Effect
-    speed: 800,
-    effect: 'fade',
-    fadeEffect: {
-      crossFade: true
-    },
+    // Speed & Effect - Use slide instead of fade
+    speed: 600,
+    effect: 'slide',
     
-    // Always show 1 slide at a time (classic carousel)
+    // Critical: Always show 1 slide at a time
     slidesPerView: 1,
     spaceBetween: 0,
+    centeredSlides: true,
     
     // Navigation
     navigation: {
@@ -412,7 +418,7 @@ document.addEventListener('DOMContentLoaded', function() {
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
-      dynamicBullets: true,
+      dynamicBullets: false,
     },
     
     // Accessibility
