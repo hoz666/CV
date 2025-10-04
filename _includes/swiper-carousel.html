@@ -260,7 +260,7 @@
 
 <!-- Research Highlights Section -->
 <div class="research-carousel-section">
-  <h2>Research Highlights</h2>
+  <h2>最新研究</h2>
   
   <!-- Swiper Container -->
   <div class="swiper research-swiper">
@@ -390,64 +390,104 @@
 
 <!-- Initialize Swiper -->
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-  const swiper = new Swiper('.research-swiper', {
-    // Loop & Autoplay
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false,
-      pauseOnMouseEnter: true,
-    },
-    
-    // Speed & Effect - Use slide instead of fade
-    speed: 600,
-    effect: 'slide',
-    
-    // Critical: Always show 1 slide at a time
-    slidesPerView: 1,
-    spaceBetween: 0,
-    centeredSlides: true,
-    
-    // Navigation
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-    
-    // Pagination
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
-      dynamicBullets: false,
-    },
-    
-    // Accessibility
-    a11y: {
-      enabled: true,
-      prevSlideMessage: 'Previous slide',
-      nextSlideMessage: 'Next slide',
-    },
-    
-    // Grab Cursor
-    grabCursor: true,
-    
-    // Keyboard Control
-    keyboard: {
-      enabled: true,
-      onlyInViewport: true,
-    },
-  });
+(function() {
+  'use strict';
   
-  // Pause on hover (additional control)
-  const swiperContainer = document.querySelector('.research-swiper');
-  if (swiperContainer) {
-    swiperContainer.addEventListener('mouseenter', () => {
+  // Initialize function
+  function initSwiper() {
+    // Check if Swiper is loaded
+    if (typeof Swiper === 'undefined') {
+      console.error('Swiper library not loaded');
+      return;
+    }
+    
+    // Check if container exists
+    const container = document.querySelector('.research-swiper');
+    if (!container) {
+      console.error('Swiper container not found');
+      return;
+    }
+    
+    console.log('Initializing Swiper...');
+    
+    // Create Swiper instance
+    const swiper = new Swiper('.research-swiper', {
+      // Loop & Autoplay
+      loop: true,
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: true,
+      },
+      
+      // Speed & Effect
+      speed: 600,
+      effect: 'slide',
+      
+      // Single slide display
+      slidesPerView: 1,
+      spaceBetween: 0,
+      centeredSlides: true,
+      
+      // Navigation arrows
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      
+      // Pagination dots
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        dynamicBullets: false,
+      },
+      
+      // Grab cursor
+      grabCursor: true,
+      
+      // Keyboard control
+      keyboard: {
+        enabled: true,
+        onlyInViewport: true,
+      },
+      
+      // Callbacks for debugging
+      on: {
+        init: function() {
+          console.log('Swiper initialized successfully');
+        },
+        slideChange: function() {
+          console.log('Slide changed to:', this.activeIndex);
+        },
+      },
+    });
+    
+    // Pause on hover
+    container.addEventListener('mouseenter', function() {
       swiper.autoplay.stop();
     });
-    swiperContainer.addEventListener('mouseleave', () => {
+    
+    container.addEventListener('mouseleave', function() {
       swiper.autoplay.start();
     });
+    
+    console.log('Swiper setup complete');
   }
-});
+  
+  // Try multiple initialization methods
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initSwiper);
+  } else {
+    // DOM already loaded
+    initSwiper();
+  }
+  
+  // Also try after window load as fallback
+  window.addEventListener('load', function() {
+    // Check if already initialized
+    if (!document.querySelector('.swiper-initialized')) {
+      initSwiper();
+    }
+  });
+})();
 </script>
