@@ -19,7 +19,7 @@ University of Victoria
 
 **Email:** [valeo@uvic.ca](mailto:valeo@uvic.ca)  
 **Phone:** [(250) 721-8623](tel:+12507218623)  
-**Office:** Engineering Office Wing (EOW), Room 449
+**Office:** Engineering Office Wing (EOW), Room 543
 
 **Mailing Address:**  
 Department of Mechanical Engineering  
@@ -34,10 +34,11 @@ Victoria, BC V8W 2Y2, Canada
 <div style="margin: 2em 0;">
   <div style="background: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #1a6ba8; margin-bottom: 1.5em;">
     <h3 style="margin-top: 0; color: #2c3e50;">Engineering Office Wing (EOW)</h3>
-    <p style="margin-bottom: 0.5em;"><strong>📍 Address:</strong> 9982 Ring Road, Victoria, BC V8P 3E6</p>
-    <p style="margin-bottom: 0.5em;"><strong>🏛️ Building:</strong> Floor 1, University of Victoria</p>
-    <p style="margin-bottom: 0.5em;"><strong>🌐 Website:</strong> <a href="https://ece.uvic.ca" target="_blank">ece.uvic.ca</a></p>
-    <p style="margin-bottom: 0;"><strong>📞 Phone:</strong> (250) 721-8921</p>
+    <p style="margin-bottom: 0.5em;"><strong>� Room:</strong> 543</p>
+    <p style="margin-bottom: 0.5em;"><strong>�📍 Address:</strong> 9982 Ring Road, Victoria, BC V8P 3E6</p>
+    <p style="margin-bottom: 0.5em;"><strong>🏛️ Building:</strong> Floor 5, University of Victoria</p>
+    <p style="margin-bottom: 0.5em;"><strong>🌐 Website:</strong> <a href="https://www.uvic.ca/ecs/mechanical/index.php" target="_blank">Click here</a></p>
+    <p style="margin-bottom: 0;"><strong>📞 Phone:</strong> 1-250-721-8895</p>
   </div>
 </div>
 
@@ -45,7 +46,7 @@ Victoria, BC V8W 2Y2, Canada
 
 <div style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin: 2em 0;">
   <iframe 
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2645.8249820548687!2d-123.31264468430856!3d48.46300397924894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548f71535d1b7f53%3A0x7d45d8b8f9833ae5!2sEngineering%20Office%20Wing%2C%20University%20of%20Victoria!5e0!3m2!1sen!2sca!4v1234567890123!5m2!1sen!2sca" 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d660.9569545389288!2d-123.31185356965636!3d48.463002986972516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548f71535d1b7f53%3A0x7d45d8b8f9833ae5!2sEngineering%20Office%20Wing%2C%20University%20of%20Victoria!5e0!3m2!1sen!2sca!4v1635789012345!5m2!1sen!2sca&markers=color:red%7C48.463003,-123.311854" 
     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
     allowfullscreen="" 
     loading="lazy" 

@@ -132,7 +132,6 @@ Welcome to our research team! We are a dynamic group of graduate students, postd
   <li>CFD simulation for urban microclimate (ENVI-met, ANSYS Fluent, OpenFOAM)</li>
   <li>Human thermal comfort evaluation</li>
 </ul>
-<p><strong>Collaborators:</strong> Dr. Angus Chu (U of C), Dr. Rishi Gupta (UVic)</p>
 </div>
 </details>
 
@@ -148,26 +147,20 @@ Welcome to our research team! We are a dynamic group of graduate students, postd
 ### **Master's Students**
 
 <details>
-<summary><strong>Jessica D.</strong> - Bioretention Systems</summary>
+<summary><strong>Meichen Zhao</strong> - Urban Heat Island & Structural Soils</summary>
 <div style="padding: 15px; border-left: 3px solid #000;">
-<p><strong>Research Topic:</strong> Bioretention of heavy metals and evapotranspiration in bioretention cells</p>
-<p><strong>Focus:</strong> Performance optimization of green infrastructure for stormwater treatment</p>
-</div>
-</details>
-
-<details>
-<summary><strong>Sarah Q.</strong> - Building Thermal Performance</summary>
-<div style="padding: 15px; border-left: 3px solid #000;">
-<p><strong>Research Topic:</strong> Evaluating instruments for thermal heat transfer monitoring in walls</p>
-<p><strong>Co-supervisor:</strong> Dr. Phalguni Mukhopadhyaya (UVic)</p>
-</div>
-</details>
-
-<details>
-<summary><strong>Fatima T.</strong> - Stormwater Treatment Ponds</summary>
-<div style="padding: 15px; border-left: 3px solid #000;">
-<p><strong>Research Topic:</strong> Hydraulic models of treatment ponds in series for treating polluted runoff</p>
-<p><strong>Focus:</strong> Optimization of pond configuration and design parameters</p>
+<p><strong>Research Topic:</strong> The impact of structural soils supporting urban trees on the Urban Heat Island effect</p>
+<p><strong>Focus Areas:</strong></p>
+<ul>
+  <li>Climate change intensification of Urban Heat Island (UHI) effects</li>
+  <li>Urban forestry design as cooling strategy through shading, evaporation, and airflow regulation</li>
+  <li>Innovative Rainwater Tree Trenches (RTT) within structural soils</li>
+  <li>Integration of urban forest with city infrastructure for climate resilience</li>
+  <li>Practical implementation challenges of green stormwater infrastructure</li>
+</ul>
+<p><strong>Collaboration:</strong> City of Vancouver partnership for implementing innovative green stormwater infrastructure</p>
+<p><strong>Publication:</strong> International Conference on Environmental Science and Technology (2024), Springer Nature Switzerland, pp. 165-178</p>
+<p><strong>Co-supervisors:</strong> Dr. Rishi Gupta, Dr. Peter Constable, Dr. Phalguni Mukhopadhyaya (UVic), Dr. Jianxun He, Dr. Angus Chu (U of C)</p>
 </div>
 </details>
 
