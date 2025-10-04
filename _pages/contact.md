@@ -1,7 +1,13 @@
 ---
 layout: archive
-title: "Contact"
-permalink: /contact/
+title: "Cont  <div style="background: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #1a6ba8; margin-bottom: 1.5em;">
+    <h3 style="margin-top: 0; color: #2c3e50;">Engineering Office Wing (EOW)</h3>
+    <p style="margin-bottom: 0.5em;"><strong>🚪 Room:</strong> 543</p>
+    <p style="margin-bottom: 0.5em;"><strong>📍 Address:</strong> 9982 Ring Road, Victoria, BC V8P 3E6</p>
+    <p style="margin-bottom: 0.5em;"><strong>🏛️ Building:</strong> Floor 5, University of Victoria</p>
+    <p style="margin-bottom: 0.5em;"><strong>🌐 Official UVic Website:</strong> <a href="https://www.uvic.ca/ecs/mechanical/faculty-and-staff/faculty/profiles/valeo-caterina.php" target="_blank">Click here</a></p>
+    <p style="margin-bottom: 0;"><strong>📞 Phone:</strong> 1-250-721-8895</p>
+  </div>rmalink: /contact/
 author_profile: true
 ---
 
@@ -37,7 +43,7 @@ Victoria, BC V8W 2Y2, Canada
     <p style="margin-bottom: 0.5em;"><strong>� Room:</strong> 543</p>
     <p style="margin-bottom: 0.5em;"><strong>�📍 Address:</strong> 9982 Ring Road, Victoria, BC V8P 3E6</p>
     <p style="margin-bottom: 0.5em;"><strong>🏛️ Building:</strong> Floor 5, University of Victoria</p>
-    <p style="margin-bottom: 0.5em;"><strong>🌐 Website:</strong> <a href="https://www.uvic.ca/ecs/mechanical/index.php" target="_blank">Click here</a></p>
+    <p style="margin-bottom: 0.5em;"><strong>🌐 Official UVic Website:</strong> <a href="https://www.uvic.ca/ecs/mechanical/faculty-and-staff/faculty/profiles/valeo-caterina.php" target="_blank">Click here</a></p>
     <p style="margin-bottom: 0;"><strong>📞 Phone:</strong> 1-250-721-8895</p>
   </div>
 </div>
@@ -46,7 +52,7 @@ Victoria, BC V8W 2Y2, Canada
 
 <div style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin: 2em 0;">
   <iframe 
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d660.9569545389288!2d-123.31185356965636!3d48.463002986972516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548f71535d1b7f53%3A0x7d45d8b8f9833ae5!2sEngineering%20Office%20Wing%2C%20University%20of%20Victoria!5e0!3m2!1sen!2sca!4v1635789012345!5m2!1sen!2sca&markers=color:red%7C48.463003,-123.311854" 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d330.4784772694644!2d-123.31228134868383!3d48.46300298697252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548f71535d1b7f53%3A0x7d45d8b8f9833ae5!2sEngineering%20Office%20Wing%2C%20University%20of%20Victoria!5e0!3m2!1sen!2sca!4v1735689012345!5m2!1sen!2sca" 
     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
     allowfullscreen="" 
     loading="lazy" 
