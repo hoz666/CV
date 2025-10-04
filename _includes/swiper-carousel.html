@@ -1,7 +1,7 @@
 {% include base_path %}
 <!-- Research Highlights Carousel - Swiper.js -->
 <style>
-/* Swiper Container Styling - Modern Design */
+/* Swiper Container Styling */
 .research-carousel-section {
   margin: 4em 0;
   padding: 0;
@@ -12,12 +12,7 @@
   text-align: center;
   margin-bottom: 2.5em;
   color: #2c3e50;
-  font-size:       <!-- Slide 5: Clima          <div class="slide-content">
-            <a href="{{ "/research-team" | prepend: base_path }}" class="slide-title">
-              Environmental Hydraulics LaboratoryModeling -->
-      <div class="swiper-slide">
-        <div class="slide-card">
-          <img src="{{ "/images/lab/climate-modeling.jpg" | prepend: base_path }}" alt="Climate Impact Modeling" class="slide-image" onerror="this.src='{{ "/images/500x300.png" | prepend: base_path }}'">m;
+  font-size: 2.2em;
   font-weight: 700;
   letter-spacing: -0.5px;
   position: relative;
@@ -48,10 +43,9 @@
 
 .swiper-wrapper {
   display: flex;
-  transition-timing-function: ease;
 }
 
-/* Slide Styling - Single Image Mode */
+/* Slide Styling */
 .swiper-slide {
   width: 100% !important;
   height: auto;
@@ -142,7 +136,7 @@
   font-size: 1.1em;
 }
 
-/* Navigation Buttons - Minimalist Black Design */
+/* Navigation Buttons */
 .swiper-button-next,
 .swiper-button-prev {
   color: #2c3e50 !important;
@@ -166,7 +160,7 @@
   font-weight: 700;
 }
 
-/* Pagination Dots - Display below image */
+/* Pagination Dots */
 .swiper-pagination {
   position: absolute !important;
   bottom: 15px !important;
@@ -204,7 +198,7 @@
   border-color: #2c3e50;
 }
 
-/* Responsive Adjustments - Mobile Optimized */
+/* Responsive */
 @media (max-width: 768px) {
   .research-carousel-section {
     margin: 2em 0;
@@ -216,7 +210,7 @@
   }
   
   .swiper {
-    padding: 0 20px 60px 20px;
+    padding: 0 20px 40px 20px;
   }
   
   .slide-image {
@@ -246,22 +240,6 @@
   .swiper-button-prev:after {
     font-size: 18px;
   }
-  
-  .swiper-pagination {
-    bottom: 20px !important;
-    margin-top: 20px;
-  }
-}
-
-/* Tablet Adjustments */
-@media (min-width: 769px) and (max-width: 1024px) {
-  .slide-image {
-    height: 380px;
-  }
-  
-  .swiper {
-    max-width: 900px;
-  }
 }
 </style>
 
@@ -272,14 +250,13 @@
 <div class="research-carousel-section">
   <h2>Latest Research News</h2>
   
-  <!-- Swiper Container -->
   <div class="swiper research-swiper">
     <div class="swiper-wrapper">
       
-      <!-- Slide 1: Urban Tree Trenches -->
+      <!-- Slide 1 -->
       <div class="swiper-slide">
         <div class="slide-card">
-          <img src="{{ "/images/lab/rainwater-tree-trench.jpg" | prepend: base_path }}" alt="Rainwater Tree Trench System" class="slide-image" onerror="this.src='{{ "/images/500x300.png" | prepend: base_path }}'">
+          <img src="{{ "/images/lab/rainwater-tree-trench.jpg" | prepend: base_path }}" alt="Rainwater Tree Trench System" class="slide-image">
           <div class="slide-content">
             <a href="https://chatelaine.com/living/climate-crisis-trees-heat/" class="slide-title" target="_blank">
               Urban Forestry & Climate Change
@@ -294,10 +271,10 @@
         </div>
       </div>
       
-      <!-- Slide 2: Bioretention Research -->
+      <!-- Slide 2 -->
       <div class="swiper-slide">
         <div class="slide-card">
-          <img src="{{ "/images/lab/bioretention-cell.jpg" | prepend: base_path }}" alt="Bioretention Cell Field Study" class="slide-image" onerror="this.src='{{ "/images/500x300.png" | prepend: base_path }}'">
+          <img src="{{ "/images/lab/bioretention-cell.jpg" | prepend: base_path }}" alt="Bioretention Cell Field Study" class="slide-image">
           <div class="slide-content">
             <a href="{{ "/publications/2020-04-bioretention-review" | prepend: base_path }}" class="slide-title">
               Bioretention Systems Review
@@ -312,10 +289,10 @@
         </div>
       </div>
       
-      <!-- Slide 3: Permeable Pavements -->
+      <!-- Slide 3 -->
       <div class="swiper-slide">
         <div class="slide-card">
-          <img src="{{ "/images/lab/permeable-pavement.jpg" | prepend: base_path }}" alt="Permeable Pavement Testing" class="slide-image" onerror="this.src='{{ "/images/500x300.png" | prepend: base_path }}'">
+          <img src="{{ "/images/lab/permeable-pavement.jpg" | prepend: base_path }}" alt="Permeable Pavement Testing" class="slide-image">
           <div class="slide-content">
             <a href="{{ "/publications/2018-02-permeable-pavements" | prepend: base_path }}" class="slide-title">
               Permeable Pavements Book
@@ -330,10 +307,10 @@
         </div>
       </div>
       
-      <!-- Slide 4: Field Instrumentation -->
+      <!-- Slide 4 -->
       <div class="swiper-slide">
         <div class="slide-card">
-          <img src="{{ "/images/lab/velocity-meter.jpg" | prepend: base_path }}" alt="Custom Velocity Meter" class="slide-image" onerror="this.src='{{ "/images/500x300.png" | prepend: base_path }}'">
+          <img src="{{ "/images/lab/velocity-meter.jpg" | prepend: base_path }}" alt="Custom Velocity Meter" class="slide-image">
           <div class="slide-content">
             <a href="{{ "/publications/2020-12-velocity-meter" | prepend: base_path }}" class="slide-title">
               Custom Flow Measurement Device
@@ -342,16 +319,16 @@
               Low-cost, Arduino-based velocity meter for shallow urban runoff monitoring, enabling widespread deployment for water quality studies.
             </p>
             <div class="slide-meta">
-              Water Resources Research, 2020 | Open-source Hardware
+              Water Journal, 2020 | Open Source Hardware
             </div>
           </div>
         </div>
       </div>
       
-      <!-- Slide 5: Climate Change Modeling -->
+      <!-- Slide 5 -->
       <div class="swiper-slide">
         <div class="slide-card">
-          <img src="{{ "/images/lab/climate-modeling.jpg" | prepend: base_path }}" alt="Climate Impact Modeling" class="slide-image" onerror="this.src='{{ "/images/500x300.png" | prepend: base_path }}'">
+          <img src="{{ "/images/lab/climate-modeling.jpg" | prepend: base_path }}" alt="Climate Impact Modeling" class="slide-image">
           <div class="slide-content">
             <a href="{{ "/publications/2021-01-urbanization-climate" | prepend: base_path }}" class="slide-title">
               Urbanization & Climate Impacts
@@ -366,10 +343,10 @@
         </div>
       </div>
       
-      <!-- Slide 6: Lab Facilities -->
+      <!-- Slide 6 -->
       <div class="swiper-slide">
         <div class="slide-card">
-          <img src="{{ "/images/lab/lab-facilities.jpg" | prepend: base_path }}" alt="Environmental Hydraulics Lab" class="slide-image" onerror="this.src='{{ "/images/500x300.png" | prepend: base_path }}'">
+          <img src="{{ "/images/lab/lab-facilities.jpg" | prepend: base_path }}" alt="Environmental Hydraulics Lab" class="slide-image">
           <div class="slide-content">
             <a href="{{ "/research-team" | prepend: base_path }}" class="slide-title">
               Environmental Hydraulics Lab
@@ -398,71 +375,30 @@
 <!-- Swiper JS CDN -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-<!-- Initialize Swiper with multiple fallbacks -->
+<!-- Initialize Swiper -->
 <script>
-(function() {
-  var swiperInstance = null;
-  
-  function initializeSwiper() {
-    // Check if already initialized
-    if (swiperInstance) {
-      return;
-    }
-    
-    // Check if Swiper is available
-    if (typeof Swiper === 'undefined') {
-      console.log('Swiper not loaded yet, retrying...');
-      setTimeout(initializeSwiper, 100);
-      return;
-    }
-    
-    // Check if container exists
-    var container = document.querySelector('.research-swiper');
-    if (!container) {
-      console.log('Container not found, retrying...');
-      setTimeout(initializeSwiper, 100);
-      return;
-    }
-    
-    // Initialize Swiper
-    try {
-      swiperInstance = new Swiper('.research-swiper', {
-        slidesPerView: 1,
-        spaceBetween: 0,
-        loop: true,
-        autoplay: {
-          delay: 5000,
-          disableOnInteraction: false,
-        },
-        speed: 800,
-        navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-        },
-        pagination: {
-          el: '.swiper-pagination',
-          clickable: true,
-        },
-        grabCursor: true,
-        keyboard: {
-          enabled: true,
-        },
-      });
-      console.log('Swiper initialized successfully!');
-    } catch (e) {
-      console.error('Swiper initialization error:', e);
-    }
-  }
-  
-  // Try multiple initialization points
-  if (document.readyState === 'complete') {
-    initializeSwiper();
-  } else {
-    window.addEventListener('load', initializeSwiper);
-    document.addEventListener('DOMContentLoaded', initializeSwiper);
-  }
-  
-  // Fallback after 2 seconds
-  setTimeout(initializeSwiper, 2000);
-})();
+window.addEventListener('load', function() {
+  var swiper = new Swiper('.research-swiper', {
+    slidesPerView: 1,
+    spaceBetween: 0,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false,
+    },
+    speed: 800,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    grabCursor: true,
+    keyboard: {
+      enabled: true,
+    },
+  });
+});
 </script>
